@@ -16,7 +16,7 @@ const COMPANY = {
   stats: [
     { num: "50+", label: "Проектов" },
     { num: "12",   label: "Лет" },
-    { num: "12",   label: "Наград" },
+    { num: "15",   label: "Наград" },
   ]
 };
 
@@ -49,23 +49,26 @@ const PROJECTS = [
     sections: [
       {
         id:    "overview",
-        title: "Project Overview",
+        title: "О проекте",
         content: [
-          { type: 'text', value: 'Harbor Residence is a 480 m² private home perched on a coastal bluff, designed to frame uninterrupted views of the Pacific while remaining deeply anchored to the landscape.' },
+          { type: 'text', value: 'Конфигурация и высотность проектируемого здания выполнена в соответствии ППТ. Объемно-пространственная структура здания и цветовое решение фасадов здания приняты в соответствии с архитектурным проектом, разработанным на основании градостроительного плана земельного участка.' },
           { type: 'specs', items: [
-            { label: 'Area',     value: '480 m²' },
-            { label: 'Location', value: 'Malibu, CA' },
-            { label: 'Status',   value: 'Completed' },
-            { label: 'Year',     value: '2024' },
+            { label: 'Площадь',     value: '? m²' },
+            { label: 'Локация', value: 'г. Оренбург' },
+            { label: 'Статус',   value: 'В эксплуатации' },
+            { label: 'Год',     value: '2024' },
           ]},
-          { type: 'text', value: 'The brief called for a home that dissolves the boundary between interior and exterior — a concept we pursued through full-height glazed façades, cantilevered terraces, and a palette of materials that age alongside the coastline.' },
           { type: 'image', src: 'https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=1200&q=80', caption: 'South-facing façade at dusk' },
+
         ]
       },
       {
         id:    "concept",
-        title: "Design Concept",
+        title: "Дизайн-концепция",
         content: [
+          { type: 'text', value: 'Композиция здания представляет собой комбинацию разновысотных объемов секций в протяженное здание, создающее полузамкнутое пространство двора. В основу планировки каждой отельной секции положено конструктивно-планировочное решение крупнопанельных жилых домов с продольными и попе-речными несущими стенами.' },
+          { type: 'image', src: 'https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=1200&q=80', caption: 'South-facing façade at dusk' },
+          { type: 'text', value: 'Цветовое решение фасадов выполнено в соответствии с современными стилистическими направлениями в архитектуре. Объединение окон разнообразными ритмичными приемами создает целостную композицию фасада с яркими акцентами.' },
           { type: 'text', value: 'The plan is organised along a single east-west spine — a 28-metre gallery corridor that connects every room to the sea. From this axis, living spaces step outward, each slightly rotated to avoid direct solar gain while preserving views.' },
           { type: 'quote', value: 'The house is an instrument for measuring light — every room is calibrated to a specific time of day.' },
           { type: 'text', value: 'Board-formed concrete, white oak, and oxidised steel define the material language. These were chosen not for fashionable reasons but because they respond to salt air, UV, and time in ways that become more beautiful with age.' },
