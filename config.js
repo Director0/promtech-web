@@ -39,9 +39,9 @@ const COMPANY = {
 // ──────────────────────────────────────────
 const PROJECTS = [
   {
-    id:         "harbor-residence",
-    name:       "Жилой дом на ул. Юркина, г. Оренбург",
-    category:   "Residential",
+    id:         "appartment-urkina",
+    name:       "Жилой дом на ул. Юркина",
+    category:   "Жильё",
     year:       "2024",
     shortDesc:  "A coastal private home where raw concrete meets panoramic sea views and seamless indoor-outdoor living.",
     mainMedia:  { type: 'image', src: 'assets/urk.png' },
