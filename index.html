@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Промтех — Портфолио</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=Syne:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- ════════════════════════════════════════
+     SHARED HEADER
+════════════════════════════════════════ -->
+<header id="site-header">
+  <div class="logo" onclick="showPage('home')">
+    <div class="logo-mark">
+      <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+        <path d="M10 2L18 7V18H12V13H8V18H2V7L10 2Z" stroke="white" stroke-width="1.5" fill="none"/>
+      </svg>
+    </div>
+    <div class="logo-text">
+      <div class="brand" id="header-brand">Company</div>
+      <div class="tagline" id="header-tagline">Tagline</div>
+    </div>
+  </div>
+  <a id="btn-contact-header" class="btn-contact" href="#" target="_blank">
+    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+      <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/>
+    </svg>
+    Contact Us
+  </a>
+</header>
+
+<!-- ════════════════════════════════════════
+     HOME PAGE
+════════════════════════════════════════ -->
+<div class="page active" id="home">
+
+  <!-- Hero -->
+  <section class="hero">
+    <div class="hero-grid">
+      <div>
+        <div class="hero-eyebrow fade-up">НПП Промтехнология</div>
+        <h1 class="fade-up fade-up-1">Мы создаем <em>будущее,</em><br>которое вдохновляет.</h1>
+        <p class="hero-sub fade-up fade-up-2" id="hero-desc"></p>
+      </div>
+      <div class="hero-stats fade-up fade-up-3" id="hero-stats"></div>
+    </div>
+  </section>
+
+  <!-- Projects -->
+  <section class="projects-section">
+    <div class="section-header">
+      <div>
+        <div class="section-label">Портфолио</div>
+        <h2 class="section-title">Реализованные проекты</h2>
+      </div>
+      <div class="section-count" id="proj-count"></div>
+    </div>
+    <div class="projects-grid" id="projects-grid"></div>
+  </section>
+
+  <!-- Footer -->
+  <footer id="home-footer"></footer>
+</div>
+
+<!-- ════════════════════════════════════════
+     PROJECT PAGE
+════════════════════════════════════════ -->
+<div class="page" id="project">
+
+  <!-- Hero -->
+  <div class="project-hero" id="proj-hero">
+    <div class="project-hero-overlay"></div>
+    <div class="project-hero-content">
+      <div class="project-hero-eyebrow" id="proj-eyebrow"></div>
+      <h1 class="project-hero-title" id="proj-title"></h1>
+    </div>
+  </div>
+
+  <!-- Nav Bar -->
+  <div class="project-nav-bar">
+    <div class="proj-nav-btns">
+      <button class="proj-nav-btn" onclick="showPage('home')">
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <path d="M19 12H5M12 5l-7 7 7 7"/>
+        </svg>
+        Все проекты
+      </button>
+    </div>
+    <div class="proj-switch" id="proj-switch"></div>
+  </div>
+
+  <!-- Content -->
+  <div class="project-layout">
+    <div class="project-content" id="proj-content"></div>
+    <aside>
+      <div class="toc-card">
+        <div class="toc-title">Contents</div>
+        <ul class="toc-list" id="toc-list"></ul>
+      </div>
+    </aside>
+  </div>
+
+  <!-- Footer -->
+  <footer id="project-footer"></footer>
+</div>
+
+<!-- config.js must come before main.js so COMPANY and PROJECTS are defined -->
+<script src="config.js"></script>
+<script src="main.js"></script>
+</body>
+</html>
