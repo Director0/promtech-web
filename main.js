@@ -19,11 +19,7 @@ function buildFooter(c) {
   return `
   <div class="footer-inner">
     <div class="footer-brand">
-      <div class="logo-mark">
-        <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
-          <path d="M10 2L18 7V18H12V13H8V18H2V7L10 2Z" stroke="white" stroke-width="1.5" fill="none"/>
-        </svg>
-      </div>
+      <img src="assets/logoWhite.svg" alt="Логотип" style="display:inline; height:38px;">
       <div class="brand">${c.name}</div>
       <div class="tagline">${c.tagline}</div>
       <p class="footer-desc">${c.description}</p>
@@ -33,7 +29,7 @@ function buildFooter(c) {
       </div>
     </div>
     <div class="footer-contact">
-      <h4>Get in Touch</h4>
+      <h4>Напишите нам</h4>
       <ul class="footer-links">
         <li><a class="footer-link" href="mailto:${c.email}">
           <span class="icon-wrap">${svgIcon('email',14)}</span>${c.email}</a></li>
@@ -45,7 +41,7 @@ function buildFooter(c) {
     </div>
   </div>
   <div class="footer-bottom">
-    <span>© ${new Date().getFullYear()} ${c.name}. All rights reserved.</span>
+    <span>© ${new Date().getFullYear()} ${c.name}. Все права защищены.</span>
     <span style="letter-spacing:0.04em">${c.tagline}</span>
   </div>`;
 }

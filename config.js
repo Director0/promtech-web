@@ -14,9 +14,9 @@ const COMPANY = {
   email:       "npp-promtech@mail.ru",
   phone:       "+7 (922) 895-7711",
   stats: [
-    { num: "50+", label: "Проектов" },
+    { num: "70+", label: "Проектов" },
     { num: "12",   label: "Лет" },
-    { num: "15",   label: "Наград" },
+    { num: "13",   label: "Наград" },
   ]
 };
 
