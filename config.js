@@ -39,7 +39,7 @@ const COMPANY = {
 // ──────────────────────────────────────────
 const PROJECTS = [
   {
-    id:         "appartment-urkina",
+    id:         "appartment-yrkina",
     name:       "Жилой дом на ул. Юркина",
     category:   "Жильё",
     year:       "2024",
