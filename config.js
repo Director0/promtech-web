@@ -12,11 +12,11 @@ const COMPANY = {
   telegram:    "https://t.me/sengpro",
   whatsapp:    "https://wa.me/79228957711",
   email:       "npp-promtech@mail.ru",
-  phone:       "+7 (922) 895-7711",
+  phone:       "+7 (922) 895-77-11",
   stats: [
-    { num: "70+", label: "Проектов" },
+    { num: "100+", label: "Проектов" },
     { num: "12",   label: "Лет" },
-    { num: "13",   label: "Наград" },
+    { num: "13+",   label: "Наград" },
   ]
 };
 
@@ -41,11 +41,11 @@ const PROJECTS = [
   {
     id:         "appartment-yrkina",
     name:       "Жилой дом на ул. Юркина",
-    category:   "Жильё",
+    category:   "ОРЕНБУРГ",
     year:       "2024",
     shortDesc:  "A coastal private home where raw concrete meets panoramic sea views and seamless indoor-outdoor living.",
-    mainMedia:  { type: 'image', src: 'assets/urk.png' },
-    thumbnail:  'assets/urk.png',
+    mainMedia:  { type: 'image', src: 'assets/appartment-yrkina/urk.png' },
+    thumbnail:  'assets/appartment-yrkina/urk.png',
     sections: [
       {
         id:    "overview",
@@ -99,14 +99,15 @@ const PROJECTS = [
       }
     ]
   },
+
   {
-    id:         "central-tower",
-    name:       "Central Tower",
-    category:   "Commercial",
-    year:       "2023",
+    id:         "osg-storage",
+    name:       "Складской комплекс ОСГ-РМ",
+    category:   "СОЛНЕЧНОГОРСК, МО",
+    year:       "2024",
     shortDesc:  "A 22-storey mixed-use tower redefining the city skyline with a faceted glass façade and sky gardens on every fourth floor.",
-    mainMedia:  { type: 'image', src: 'https://images.unsplash.com/photo-1486325212027-8081e485255e?w=1400&q=80' },
-    thumbnail:  'https://images.unsplash.com/photo-1486325212027-8081e485255e?w=800&q=80',
+    mainMedia:  { type: 'image', src: './assets/osg-storage/storage-render1.png' },
+    thumbnail:  './assets/osg-storage/storage-render1.png',
     sections: [
       {
         id:    "overview",

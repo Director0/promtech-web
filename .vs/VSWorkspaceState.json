@@ -1,7 +1,9 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\assets",
+    "\\assets\\osg-storage"
   ],
-  "SelectedNode": "\\main.js",
+  "SelectedNode": "\\assets\\osg-storage\\storage-render1.png",
   "PreviewInSolutionExplorer": false
 }
